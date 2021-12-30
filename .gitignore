@@ -3,8 +3,6 @@
 
 # misc
 .DS_Store
-
-#prettier
 .prettierrc
 
 # debug
