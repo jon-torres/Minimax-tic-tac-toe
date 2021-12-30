@@ -12,9 +12,7 @@ function newGame(depth = -1, startingPlayer = 1) {
 
   // Clearing all #Board classes and populating cells HTML
   const boardDiv = document.querySelector('#board');
-  console.log(boardDiv);
   boardDiv.className = 'w-full pt-[100%] relative mb-8'; // w-full pt-40 relative mb-8
-  console.log(boardDiv);
 
   boardDiv.innerHTML = `<div id='cells-wrap' class='absolute top-0 left-0 w-full h-full flex flex-wrap'>
   <button class='cell-0 h-[33%] w-[33%] border border-gray-300 border-solid bg-indigo-600 text-stone-200 text-[calc(18px+3vw)] font-sans'></button>
