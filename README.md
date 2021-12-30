@@ -1,6 +1,6 @@
 # Tic-tac-toe
 
-In this **tic-tac-toe** single player game you face an AI capable of taking decisions based on a minimax algorithm. Every difficulty level represents a depth of the algorithm's search.
+In this **tic-tac-toe** single player game you face an AI capable of making decisions based on a minimax algorithm. Every difficulty level represents a depth of the algorithm's search.
 
 # URL
 
