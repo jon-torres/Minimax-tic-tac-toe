@@ -77,7 +77,10 @@ function newGame(depth = -1, startingPlayer = 1) {
           const symbol = !maximizing ? 'x' : 'o';
           board.insert(symbol, parseInt(bestMove));
           addClass(htmlCells[bestMove], symbol);
-          if (board.isTerminal()) {
+
+          if (board.isFull() && board.isTerminal()) {
+            gameStatus.innerText = 'Tie!';
+          } else if (board.isTerminal()) {
             setTimeout(() => {
               gameStatus.innerText = 'The computer won!';
             }, 50);
