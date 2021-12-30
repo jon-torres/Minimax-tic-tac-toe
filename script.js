@@ -82,7 +82,7 @@ function newGame(depth = -1, startingPlayer = 1) {
             gameStatus.innerText = 'Tie!';
           } else if (board.isTerminal()) {
             setTimeout(() => {
-              gameStatus.innerText = 'The computer won!';
+              gameStatus.innerText = 'You lost!';
             }, 50);
           }
           playerTurn = 1; //switch turns
