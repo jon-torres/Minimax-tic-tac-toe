@@ -1,8 +1,8 @@
 'use strict';
 
-import Board from '../classes/board.js';
-import Player from '../classes/player.js';
-import { hasClass, addClass } from '../helpers.js';
+import Board from './classes/board.js';
+import Player from './classes/player.js';
+import { hasClass, addClass } from './helpers.js';
 
 //Starts a new game with a certain depth and a startingPlayer of 1 if human is going to start
 function newGame(depth = -1, startingPlayer = 1) {
