@@ -4,7 +4,7 @@ In this **tic-tac-toe** single player game you face an AI capable of making deci
 
 # URL
 
-You can test the game by clicking <a href="https://jon-torres.github.io/Tic-tac-toe/">here</a>.
+You can test the game by clicking <a href="https://jon-torres.github.io/Minimax-tic-tac-toe/">here</a>.
 
 ## Technologies
 
